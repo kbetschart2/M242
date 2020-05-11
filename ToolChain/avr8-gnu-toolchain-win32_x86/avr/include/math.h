@@ -124,7 +124,7 @@ extern "C" {
 /**
     The cos() function returns the cosine of \a __x, measured in radians.
  */
-extern double cos(double __x) __ATTR_CONST__;
+extern double cos(double __x) __ATTR_CONST__ {};
 #define cosf	cos		/**< The alias for cos().	*/
 
 /**
